@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html land="pt-br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8"/>
     <title>Tudo sobre Google Glass</title>
     <link rel="stylesheet" href="_css/estilo.css"/>
 </head>
-
+<script>
+    function mudafoto (foto)
+    {
+        document.getElementById("icone").src = foto;
+    }
+</script>
 <body>
 <div id="interface">
 
-    <article id="noticia-principal">
     <header id="cabecalho">
     <hgroup>
     <h1>Google Glass</h1>
     <h2>A revolução do Google está chegando</h2>
     </hgroup>
-    </article>
 
     <img id="icone" src="_imagens/glass-oculos-preto-peq.png">
     <nav id="menu">
     <h1>Menu Principal</h1>
     <ul>
-        <li><a href="index.html">Home</a></li>
+        <li onmouseover="mudafoto('_imagens/home.png')"><a href="index.html">Home</a></li>
         <li><a href="specs.html">Especificações</a></li>
         <li><a href="fotos.html">Fotos</a></li>
         <li><a href="multimidia.html">Multimídia</a></li>

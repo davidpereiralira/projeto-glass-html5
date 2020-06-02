@@ -33,12 +33,6 @@ a:hover {
     text-decoration: underline;
 }
 
-header#cabecalho img#icone {
-    position: absolute;
-    left: 780px;
-    top: 70px;
-}
-
 header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
@@ -84,6 +78,12 @@ figure.foto-legenda figcaption {
     padding: 10px;
     box-sizing: border-box;
     transition: opacity 1s;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 780px;
+    top: 70px;
 }
 
 figure.foto-legenda:hover figcaption {
@@ -141,8 +141,8 @@ header#cabecalho-artigo h1 {
     font-family: 'FonteLogo', sans-serif;
     font-size: 20pt;
     color: #606060;
-    margin-bottom: 0pt;
-    margin-top: 0pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .direita {
@@ -222,6 +222,7 @@ aside#lateral h2 {
     background-color: #606060;
     font-size: 13pt;
     color: #ffffff;
+    padding: 5px;
 }
 
 footer#rodape {
